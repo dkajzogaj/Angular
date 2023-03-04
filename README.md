@@ -9,4 +9,4 @@ To run this project firstly open terminal and change directory to folder servis.
 Next open new terminal and change directory to folder Aplikacija. Type in next command: node appServer.js ../rwa_dkajzogaj20_conf.csv.  
 To open app copy your port from second terminal and type in brower next: localhost:[PORT].  
 
-angular folder in server/aplikacija is just angular build from original angular app.
+angular folder in server/aplikacija is just angular build from original angular app which NodeJS serves.
