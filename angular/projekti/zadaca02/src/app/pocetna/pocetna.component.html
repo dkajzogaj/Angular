@@ -1,0 +1,11 @@
+<h1 *ngFor="let z of zanr">
+    <h4>
+        Žanr:
+        {{z.naziv}}
+        <br>
+        Filmovi:
+    </h4>
+        <h3 *ngFor="let f of z.pripadajuciFilm">
+            <h6> {{f.naslov}} </h6>
+        </h3>
+</h1>

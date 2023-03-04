@@ -1,0 +1,15 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "aplikacija",
+  "main": "appServer.js",
+  "scripts": {
+    "start": "NODE_PATH=C:/Users/David/AppData/Roaming/npm/node_modules/ node --experimental-fetch appServer.js ../konfiguracija.csv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aplikacija"
+  ],
+  "author": "David Kajzogaj",
+  "license": "ISC"
+}

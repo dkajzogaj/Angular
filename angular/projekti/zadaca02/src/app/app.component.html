@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body> 
+    <nav class="naviga">
+        <app-navigacija></app-navigacija>
+    </nav>
+    <main>
+        <app-pocetna *ngIf="title == 'Početna'"></app-pocetna>
+        <app-filmovi-pretrazivanje *ngIf="title == 'Pretraživanje filmova'"></app-filmovi-pretrazivanje>
+        <app-dokumentacija *ngIf="title == 'Dokumentacija'"></app-dokumentacija>
+        <app-profil *ngIf="title == 'Profil'"></app-profil>
+        <app-filmovi-pregled *ngIf="title == 'Pregled filmova'"></app-filmovi-pregled>
+        <app-film *ngIf="title == 'Film'"></app-film>
+        <app-galerija-slika *ngIf="title == 'Galerija slika'"></app-galerija-slika>
+        <app-slika *ngIf="title == 'Slika'"></app-slika>
+        <app-prijedlozi-filmova  *ngIf="title == 'Prijedlozi filmova'"></app-prijedlozi-filmova>
+        <app-zanrovi *ngIf="title == 'Žanrovi'"></app-zanrovi>
+        <app-prijava *ngIf="title == 'Prijava'"></app-prijava>
+        <app-registracija *ngIf="title == 'Registracija'"></app-registracija>
+        <app-odjava *ngIf="title == 'Odjava'"></app-odjava>
+    </main>
+
+    <footer>
+        <app-footer></app-footer>
+    </footer>
+
+</body>
+</html>

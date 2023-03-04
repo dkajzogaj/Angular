@@ -1,0 +1,12 @@
+Filter: <input type="text" id="filter" placeholder="Ključne riječi" class="form"><br>
+<table>
+<tr><th>Id</th><th>Jezik</th><th>Naslov original</th><th>Naslov</th><th>Opis</th></tr>
+<tr *ngFor="let f of filmovi">
+    <td>{{f.id}}</td>
+    <td>{{f.jezik}}</td>
+    <td><a href="{{url}}{{f.id}}">{{f.naslov}}</a></td>
+    <td>{{f.izvorni_naslov}}</td>
+    <td>{{f.opis}}</td>
+
+</tr>
+</table>

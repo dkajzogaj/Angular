@@ -1,0 +1,21 @@
+
+<div>
+    Ime korisnika: {{ime}}<br>
+    Prezime korisnika: {{prezime}}<br>
+    Email korisnika: {{email}}<br>
+    Korime korisnika: {{korime}} <br>
+    Id uloge korisnika: {{Uloge_korisnika_id}}<br>
+</div>   
+
+<br>
+<form>
+    <label for="ime">Ime: </label>
+    <input name="ime" type="text" id="ime" class="form">
+    <br>
+    <br>
+    <label for="prezime">Prezime: </label>
+    <input name="prezime" type="text" id="prezime" class="form">
+    <br>
+    <br>
+    <input type="submit" value="Ažuriraj" class="button" (click)="promjeniPodatke()">
+</form>

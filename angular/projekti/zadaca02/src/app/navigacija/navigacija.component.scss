@@ -1,0 +1,22 @@
+.navig{
+    text-decoration: none;
+    color: white;
+    
+    &:hover{
+        color:#1abc8c;
+    }
+    &:link{
+        background-color: #333;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    &:visited{
+        background-color: #333;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+}

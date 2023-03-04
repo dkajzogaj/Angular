@@ -1,0 +1,24 @@
+<div *ngFor="let z of zanr">
+    {{z.naziv}}
+</div>
+<br>
+<br>
+<div *ngFor="let z of tmdbZanr">
+    {{z.id}}
+    {{z.naziv}}
+</div>
+
+       
+<form>
+    <label for="zanr">Naziv žanra kojeg zelite ažurirati: </label>
+    <input name="zanr" type="text" id="zanr" class="form">
+    <br>
+    <br>
+    <label for="novizanr">Novo ime zanra: </label>
+    <input name="novizanr" type="text" id="novizanr" class="form">
+    <br>
+    <br>
+    <input type="submit" value="Ažuriraj" class="button">
+    <input type="submit" value="Obrisi sve zanrove za koje ne postoji film" class="button">
+    <input type="submit" value="Dohvati zanrove s TMDB-a" class="button">
+</form>

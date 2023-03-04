@@ -1,0 +1,13 @@
+<a class="navig" (click)="novaNavigacija('Početna')" href="/">Početna</a>
+<a class="navig" *ngIf="Uloge_korisnika_id == 1 || Uloge_korisnika_id == 2" (click)="novaNavigacija('Pretraživanje filmova')" href="#filmoviPretrazivanje">Pretraživanje filmova</a>
+<a class="navig" (click)="novaNavigacija('Dokumentacija')" href="#dokumentacija">Dokumentacija</a>
+<a class="navig" *ngIf="Uloge_korisnika_id == 1 || Uloge_korisnika_id == 2"(click)="novaNavigacija('Profil')" href="#profil">Profil</a>
+<a class="navig" *ngIf="Uloge_korisnika_id == 1 || Uloge_korisnika_id == 2" (click)="novaNavigacija('Pregled filmova')" href="#filmoviPregled">Pregled filmova</a>
+<a class="navig" *ngIf="Uloge_korisnika_id == 1 || Uloge_korisnika_id == 2" (click)="novaNavigacija('Film')" href="#film">Film</a>
+<a class="navig" *ngIf="Uloge_korisnika_id == 1 || Uloge_korisnika_id == 2" (click)="novaNavigacija('Galerija slika')" href="#galerijaSlika">Galerija slika</a>
+<a class="navig" *ngIf="Uloge_korisnika_id == 1 || Uloge_korisnika_id == 2" (click)="novaNavigacija('Slika')" href="#slika">Slika</a>
+<a class="navig" *ngIf="Uloge_korisnika_id == 2" (click)="novaNavigacija('Prijedlozi filmova')" href="#prijedloziFilmova">Prijedlozi filmova</a>
+<a class="navig" *ngIf="Uloge_korisnika_id == 2" (click)="novaNavigacija('Žanrovi')" href="#zanrovi">Žanrovi</a>
+<a class="navig" *ngIf="!Uloge_korisnika_id" (click)="novaNavigacija('Prijava')" href="#prijava">Prijava</a>
+<a class="navig" *ngIf="!Uloge_korisnika_id" (click)="novaNavigacija('Registracija')" href="#registracija">Registracija</a>
+<a class="navig" *ngIf="Uloge_korisnika_id" (click)="OdjaviMe()">Odjava</a>
